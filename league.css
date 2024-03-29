@@ -1,0 +1,154 @@
+@media screen and (min-width: 480px){
+    h1{
+        text-align: center;
+        color: rgb(15, 15, 15);
+    }
+    table{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+        border-collapse: collapse;
+        background-color: rgba(245, 245, 245, 0.582);
+    }
+    
+    tbody td{
+        text-align: right;
+       
+    }
+    tbody tr td:first-child{
+        text-align: left;
+    }
+    tbody th{
+        text-align: left;
+    }
+    thead th{
+        border: 2px solid rgba(128, 128, 128, 0.027);
+        background-color: rgba(19, 20, 20, 0.219);
+    }
+    thead th:nth-child(2){
+        text-align: left;
+    }
+    thead th{
+        text-align: right;
+    }
+    tbody tr{
+        border-bottom: 2px solid rgba(128, 128, 128, 0.329);
+        
+    }
+    tbody tr:nth-child(4){
+        border-bottom: 2px dashed gray;
+    }
+    
+    tbody tr:nth-child(6){
+        border-bottom: 2px dashed gray;
+    }
+    tbody tr:nth-child(7){
+        border-bottom: 2px dashed gray;
+    }
+    tbody tr, thead tr{
+        height: 40px;
+    }
+
+    th span{
+        display: none;
+    }
+    td span{
+        display: none;
+    }
+
+    tbody th span:first-of-type{
+        display: inline;        
+    }
+    tbody th span:last-of-type{
+        display: none;        
+    }
+    thead th span:first-of-type{
+        display:inline
+    }
+    thead th span:last-of-type{
+        display: none;
+    }
+    thead th span:nth-of-type(8){
+        display: none;
+    }
+    thead th span:nth-last-of-type(8){
+        display: inline;
+    }
+  
+
+@media screen and (min-width:940px) {
+    h1{
+        text-align: center;
+        color: rgb(15, 15, 15);
+    }
+    table{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+        border-collapse: collapse;
+    }
+    
+    tbody td{
+        text-align: right;
+       
+    }
+    tbody tr td:first-child{
+        text-align: left;
+    }
+    tbody th{
+        text-align: left;
+    }
+    thead th{
+        border: 2px solid rgba(128, 128, 128, 0.027);
+        background-color: rgba(19, 20, 20, 0.219);
+    }
+    thead th:nth-child(2){
+        text-align: left;
+    }
+    thead th{
+        text-align: right;
+    }
+    tbody tr{
+        border-bottom: 2px solid rgba(128, 128, 128, 0.329);
+        
+    }
+    tbody tr:nth-child(4){
+        border-bottom: 2px dashed gray;
+    }
+    
+    tbody tr:nth-child(6){
+        border-bottom: 2px dashed gray;
+    }
+    tbody tr:nth-child(7){
+        border-bottom: 2px dashed gray;
+    }
+    tbody tr, thead tr{
+        height: 40px;
+    }
+
+    th span{
+        display: inline;
+    }
+    td span{
+        display: inline;
+    }
+    tbody th span:first-of-type{
+        display: none;        
+    }
+    tbody th span:last-of-type{
+        display: inline;        
+    }
+    thead th span:first-of-type{
+        display:none
+    }
+    thead th span:last-of-type{
+        display: inline;
+    }
+    thead th span:nth-of-type(8){
+        display: inline;
+    }
+    thead th span:nth-last-of-type(8){
+        display: none;
+    }
+}
+}
